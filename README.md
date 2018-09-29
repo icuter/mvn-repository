@@ -1,0 +1,1 @@
+my github maven repository
