@@ -8,7 +8,7 @@ Here is a repository on GitHub to get JSQL dependency.
 <repositories>
   <repository>
     <id>icuter</id>
-    <url>https://github.com/icuter/mvn-repository</url>
+    <url>https://github.com/icuter/mvn-repository/tree/master</url>
   </repository>
 </repositories>
 ```
