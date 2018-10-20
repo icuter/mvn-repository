@@ -19,7 +19,7 @@ Here is a repository on GitHub to get JSQL dependency.
   <dependency>
     <groupId>cn.icuter</groupId>
     <artifactId>jsql</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
   </dependency>
 </dependencies>
 ```
