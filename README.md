@@ -23,3 +23,15 @@ Here is a repository on GitHub to get JSQL dependency.
   </dependency>
 </dependencies>
 ```
+
+#### or for jdk1.6 development environment
+```text
+<dependencies>
+  <dependency>
+    <groupId>cn.icuter</groupId>
+    <artifactId>jsql</artifactId>
+    <version>1.0.3-jdk1.6</version>
+  </dependency>
+</dependencies>
+```
+
