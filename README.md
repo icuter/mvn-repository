@@ -1,37 +1,26 @@
-GitHub Maven Repository
+iCuter Maven Repository on GitHub
 ====
 
-Here is a repository on GitHub to get JSQL dependency.
+Here is a repository on GitHub to get dependencies.
 
 #### Add the repository configuration to your pom.xml file
 ```text
 <repositories>
-  <repository>
-    <id>icuter</id>
-    <url>https://github.com/icuter/mvn-repository/tree/master</url>
-  </repository>
+    <repository>
+        <id>icuter.mvn-repo</id>
+        <url>https://raw.githubusercontent.com/icuter/mvn-repository/master/</url>
+    </repository>
 </repositories>
 ```
 
-#### add JSQL dependency configuration to your pom.xml
+#### add Oracle Driver dependency to your pom.xml
 ```text
 <dependencies>
-  <dependency>
-    <groupId>cn.icuter</groupId>
-    <artifactId>jsql</artifactId>
-    <version>1.0.3</version>
-  </dependency>
-</dependencies>
-```
-
-#### or for jdk1.6 development environment
-```text
-<dependencies>
-  <dependency>
-    <groupId>cn.icuter</groupId>
-    <artifactId>jsql</artifactId>
-    <version>1.0.3-jdk1.6</version>
-  </dependency>
+    <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>ojdbc</artifactId>
+        <version>6</version>
+    </dependency>
 </dependencies>
 ```
 
